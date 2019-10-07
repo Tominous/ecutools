@@ -33,10 +33,10 @@ int MYINT_DUP(int const *src) {
   char ssrc[len+1];
   snprintf(ssrc, len+1, "%d", src);
   return atoi(ssrc);
-/*
+
   unsigned long * p = malloc(len * sizeof(unsigned long));
   memcpy(p, src, len * sizeof(unsigned long));
   return p;
-*/
+
 }
 
